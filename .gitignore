@@ -1,0 +1,10 @@
+## generated directories
+stylesheets
+node_modules
+
+## jekyll directories
+_site
+
+## temp folders
+.sass-cache
+.DS_Store
