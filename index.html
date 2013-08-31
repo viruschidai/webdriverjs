@@ -8,7 +8,41 @@
     {{ whatIsWebdriverjs | markdownify }}
 </article>
 
-<article class="col2">
+<article class="col2 last">
     {% capture whoIsUsing %}{% include articles/whoIsUsing.md %}{% endcapture %}
     {{ whoIsUsing | markdownify }}
 </article>
+
+<aside class="teaser">
+    <div class="teaserbox">
+        {% capture easyToUse %}{% include articles/teaser/easyToUse.md %}{% endcapture %}
+        {{ easyToUse | markdownify }}
+    </div>
+
+    <div class="teaserbox">
+        {% capture featureRich %}{% include articles/teaser/featureRich.md %}{% endcapture %}
+        {{ featureRich | markdownify }}
+    </div>
+
+    <div class="teaserbox">
+        {% capture compatible %}{% include articles/teaser/compatible.md %}{% endcapture %}
+        {{ compatible | markdownify }}
+    </div>
+
+    <div class="teaserbox">
+        {% capture extendable %}{% include articles/teaser/extendable.md %}{% endcapture %}
+        {{ extendable | markdownify }}
+    </div>
+</aside>
+
+<section>
+    <h2>Install</h2>
+    <p>
+        Either download it from github or use NPM. If you are using NPM it
+        automatically downloads the newest version of the selenium standalone
+        server, which you'll need to run your selenium tests. You can manually
+        download it <a href="https://code.google.com/p/selenium/downloads/list" target="_blank">here</a>.
+    </p>
+
+    {% highlight sh linenos %}npm install webdriverjs{% endhighlight %}
+</section>

@@ -16,11 +16,15 @@
 @import "components/container";
 @import "components/columns";
 @import "components/article";
+@import "components/syntax";
+@import "components/headings";
+@import "components/links";
 
 // import modules
 @import "modules/header";
 @import "modules/social";
 @import "modules/footer";
+@import "modules/teaser";
 
 // general styles
 html,body {
@@ -30,6 +34,7 @@ html,body {
 	padding: 0;
 	background: $bodyBackground;
 	font-family: $fontFamily;
-	font-size: 14px;
+	font-size: 16px;
 	color: $textColor;
+	line-height: 1.3em;
 }

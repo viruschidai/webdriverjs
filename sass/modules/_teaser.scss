@@ -1,0 +1,38 @@
+.teaser {
+    clear: both;
+    margin: 40px 0;
+    overflow: hidden;
+
+    .teaserbox {
+        @include border-radius(5px);
+        width: 175px;
+        padding: 210px 25px 25px 25px;
+        float: left;
+        background: $white;
+        margin-right: 20px;
+        text-align: center;
+        background: url('/images/teaser-icons.gif') 40px 40px $white no-repeat;
+
+        &:last-child {
+            margin: 0;
+        }
+
+        &:nth-child(2) {
+            background-position: -185px 40px;
+        }
+
+        &:nth-child(3) {
+            background-position: -410px 40px;
+        }
+
+        &:nth-child(4) {
+            background-position: -640px 40px;
+        }
+
+        h3 {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+    }
+}
