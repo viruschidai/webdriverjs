@@ -3,4 +3,21 @@ footer {
     border-bottom: $headerTopBorder solid $orange;
     height: $headerHeight;
     background: $headerBackground;
+    color: $footerFontColor;
+
+    .twitterLink {
+    	@include border-radius(100px);
+    	// border: 2px solid $orange;
+		width: 100px;
+		height: 100px;
+		display: block;
+		float: left;
+		margin: 20px 20px 0 0;
+		overflow: hidden;
+
+
+    	img {
+    		width: 100%;
+    	}
+    }
 }
