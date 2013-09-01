@@ -1,4 +1,4 @@
-### extendable
+### Extendable
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-tempor invidunt ut.
+Adding helper functions, or more complicated sets and combinations of existing
+commands is **simple** and really **useful**

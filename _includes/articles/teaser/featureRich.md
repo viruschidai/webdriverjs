@@ -1,4 +1,4 @@
-### featureRich
+### Feature-Rich
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-tempor invidunt ut.
+Most of the Selenium WebDriver Wire Protocol is already implemented and wraped
+in **useful commands**

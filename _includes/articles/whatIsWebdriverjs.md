@@ -2,14 +2,11 @@
 What is WebdriverJS?
 --------------------
 
-WebdriverJS is a webdriver module for nodejs. It comes up with many commands
-to control the browser behavior for your BDD tests.
-
-It is written so its easy to add new protocol implementations and add helper
-commands so make testing easier. Each command resides as one file inside the
-node module folder which makes it easy to extend.
-
-The two main reasons for this projects are:
-
-1. Ease of use - Writing tests with webdriver should be very easy
-2. Easy to extend - Adding helper functions, or more complicated sets and combinations of existing commands, should also be very easy.
+WebdriverJS is an open source testing utility for nodejs. It makes it possible
+to write super easy selenium tests with Javascript in your favorite BDD or TDD
+test framework. Even Cucumber tests are supported.<br>
+<br>
+It basically sends requests to a Selenium server via the
+[WebDriver Wire Protocol](https://code.google.com/p/selenium/wiki/JsonWireProtocol#Command_Reference)
+and handles with its response. These requests are wraped in useful commands, which
+provides callbacks to test several aspects of your site in a automated way.

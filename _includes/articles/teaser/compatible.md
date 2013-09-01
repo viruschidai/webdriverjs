@@ -1,4 +1,4 @@
-### compatible
+### Compatible
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-tempor invidunt ut.
+WebdriverJS works in combination with most of the **TDD** and **BDD** test frameworks in
+the JavaScript world
