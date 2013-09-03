@@ -37,9 +37,7 @@
 
 <section>
     <h2>Install</h2>
-    <p>
-        Either download it from github or use NPM.
-    </p>
+    <p>Either download it from github or use NPM.</p>
 
     {% highlight sh linenos %}npm install webdriverjs --save-dev{% endhighlight %}
 
@@ -48,4 +46,39 @@
         standalone server which executes the selenium commands. You find the
         latest version <a href="https://code.google.com/p/selenium/downloads/detail?name=selenium-server-standalone-2.35.0.jar">here</a>.
     </p>
+</section>
+
+<section>
+    <h2>Write Tests</h2>
+    <p>Run selenium server first:</p>
+
+    {% highlight sh linenos %}java -jar path/to/your/selenium-server-standalone-2.35.0.jar{% endhighlight %}
+
+    <p>
+        WebdriverJS is just a simple library which enables Selenium testing for your TDD/BDD
+        tests. It provides simple functions for navigating the web browser and checking
+        attributes and states of DOM elements. Check out the examples.
+    </p>
+
+    <div class="gist-header">
+        <span>BDD/TDD test framework:</span>
+
+        <button disabled="disabled">Mocha</button>
+        <button>Mocha + Chai</button>
+        <button>Buster.JS</button>
+        <button>Cucumber</button>
+        <button>Jasmine</button>
+        <button>NodeUnit</button>
+        <button>Vows</button>
+    </div>
+    <div class="gists">
+        <div class="mocha show">{% gist 6416885 %}</div>
+        <div class="mochachai">{% gist 6416873 %}</div>
+        <div class="buster">{% gist 6416851 %}</div>
+        <div class="cucumber">{% gist 6417028 %}</div>
+        <div class="jasmine">{% gist 6416864 %}</div>
+        <div class="nodeunit">{% gist 6416889 %}</div>
+        <div class="vows">{% gist 6416899 %}</div>
+    </div>
+    
 </section>

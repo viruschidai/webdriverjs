@@ -20,4 +20,18 @@ footer {
     		width: 100%;
     	}
     }
+
+    cite {
+        display: block;
+        clear: both;
+        text-align: center;
+        padding-top: 55px;
+        overflow: hidden;
+
+        em {
+            color: $heartColor;
+            font-size: 0.8em;
+            padding: 0 5px;
+        }
+    }
 }
