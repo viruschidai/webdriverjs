@@ -1,84 +1,61 @@
----
-  layout: default
-  title: WebdriverJS - Selenium 2.0 javascript bindings for nodejs
----
+<!DOCTYPE html>
 
-<article class="col2">
-    {% capture whatIsWebdriverjs %}{% include articles/whatIsWebdriverjs.md %}{% endcapture %}
-    {{ whatIsWebdriverjs | markdownify }}
-</article>
+<title>WebdriverJS - Selenium 2.0 javascript bindings for nodejs</title>
 
-<article class="col2 last">
-    {% capture whoIsUsing %}{% include articles/runYourTestsInTheCloud.md %}{% endcapture %}
-    {{ whoIsUsing | markdownify }}
-</article>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="This library is a webdriver module for nodejs. It makes it possible to write super easy selenium tests in your favorite BDD or TDD test framework.">
+<meta name="keywords" content="webdriverjs, webdriver, selenium, TDD, BDD, test, driven, development, saucelabs, sauce, labs, mocha, nodeUnit, buster, phantomjs, chai, vows, jasmine, assert, cucumber">
 
-<aside class="teaser">
-    <div class="teaserbox">
-        {% capture easeOfUse %}{% include articles/teaser/easeOfUse.md %}{% endcapture %}
-        {{ easeOfUse | markdownify }}
-    </div>
+<style>
+@import url(http://fonts.googleapis.com/css?family=Lato);
 
-    <div class="teaserbox">
-        {% capture featureRich %}{% include articles/teaser/featureRich.md %}{% endcapture %}
-        {{ featureRich | markdownify }}
-    </div>
-
-    <div class="teaserbox">
-        {% capture compatible %}{% include articles/teaser/compatible.md %}{% endcapture %}
-        {{ compatible | markdownify }}
-    </div>
-
-    <div class="teaserbox">
-        {% capture extendable %}{% include articles/teaser/extendable.md %}{% endcapture %}
-        {{ extendable | markdownify }}
-    </div>
-</aside>
+body,html {
+    margin: 0;
+    padding: 0;
+    background: url('data:image/gif;base64,R0lGODlhBAAEAJEAABERESIiIgcHBwAAACH5BAAAAAAALAAAAAAEAAQAAAIHBCQRiIZaAAA7') repeat;
+    font-family: 'Lato', sans-serif;
+}
+section {
+    min-width: 800px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -200px 0 0 -400px;
+}
+h1 {
+    font-size: 60px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    width: 470px;
+    margin: 55px 20px 0 0;
+    line-height: 0.92em;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+h2 {
+    float: left;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-align: center;
+    width: 100%;
+}
+img {
+    clear: both;
+    display: block;
+    margin: 0 auto;
+}
+</style>
 
 <section>
-    <h2>Install</h2>
-    <p>Either download it from github or use NPM.</p>
-
-    {% highlight sh linenos %}npm install webdriverjs --save-dev{% endhighlight %}
-
-    <p>
-        To run tests on your local machine, you have to download a selenium
-        standalone server which executes the selenium commands. You find the
-        latest version <a href="https://code.google.com/p/selenium/downloads/detail?name=selenium-server-standalone-2.35.0.jar">here</a>.
-    </p>
-</section>
-
-<section>
-    <h2>Write Tests</h2>
-    <p>Run selenium server first:</p>
-
-    {% highlight sh linenos %}java -jar path/to/your/selenium-server-standalone-2.35.0.jar{% endhighlight %}
-
-    <p>
-        WebdriverJS is just a simple library which enables Selenium testing for your TDD/BDD
-        tests. It provides simple functions for navigating the web browser and checking
-        attributes and states of DOM elements. Check out the examples.
-    </p>
-
-    <div class="gist-header">
-        <span>BDD/TDD test framework:</span>
-
-        <button disabled="disabled">Mocha</button>
-        <button>Mocha + Chai</button>
-        <button>Buster.JS</button>
-        <button>Cucumber</button>
-        <button>Jasmine</button>
-        <button>NodeUnit</button>
-        <button>Vows</button>
-    </div>
-    <div class="gists">
-        <div class="mocha show">{% gist 6416885 %}</div>
-        <div class="mochachai">{% gist 6416873 %}</div>
-        <div class="buster">{% gist 6416851 %}</div>
-        <div class="cucumber">{% gist 6417028 %}</div>
-        <div class="jasmine">{% gist 6416864 %}</div>
-        <div class="nodeunit">{% gist 6416889 %}</div>
-        <div class="vows">{% gist 6416899 %}</div>
-    </div>
-    
+    <img src="images/webdriver-robot.png" alt="Webdriverjs">
+    <h1>WebdriverJS</h1>
+    <h2>Website comming soon...</h2>
 </section>
