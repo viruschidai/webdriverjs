@@ -1,0 +1,13 @@
+- 1s pause
+- maximize
+- test saucelabs oss
+- do not mix windowHandles and tabs
+- test cookies
+- wiki page de test
+- test click helper
+- test méthodes disponibles
+- replace all extends
+
+- vider node_modules et installer les modules manquants + package.json
+- remettre singleton possible
+- remettre .remote() voir autres drivers

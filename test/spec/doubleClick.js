@@ -1,4 +1,4 @@
-describe('doubleClick command test',function(done) {
+xdescribe('doubleClick command test',function(done) {
     before(h.setup);
 
     it('text should be visible after doubleClick on .btn1', function(done){

@@ -61,5 +61,14 @@
     "cucumber",
     "testingbot"
   ],
-  "dependencies": {}
+  "dependencies": {
+    "lodash.assign": "~2.2.1",
+    "lodash.partial": "~2.2.1",
+    "deepmerge": "~0.2.7",
+    "chainit": "git+ssh://git@github.com:vvo/chainit.git#beta",
+    "request": "~2.27.0",
+    "mocha": "~1.13.0",
+    "chai": "~1.8.1",
+    "lodash.merge": "~2.2.1"
+  }
 }
